@@ -82,6 +82,8 @@ namespace YoutubeConnection
                 {
                     // Print information about each video.
                     Console.WriteLine("{0} ({1})", subItemsList.Snippet.Title, subItemsList.Snippet.ChannelId);
+
+                    //listOfStrings.Add();
                 }
 
                 nextPageToken = subItemsListListResponse.NextPageToken;

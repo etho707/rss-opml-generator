@@ -5,7 +5,13 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rss-opml-generator", "rss-opml-generator\rss-opml-generator.csproj", "{DB0A7F46-5B9D-4B43-892C-BB76B3E149B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeConnection", "YoutubeConnection\YoutubeConnection.csproj", "{3D693A08-1F74-446D-A29F-EFE39A01DFEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeConnection", "YoutubeConnection\YoutubeConnection.csproj", "{3D693A08-1F74-446D-A29F-EFE39A01DFEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeRegexParser", "YoutubeRegexParser\YoutubeRegexParser.csproj", "{6131C372-3DBF-4372-BA46-0A492B3C951D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpmlMaker", "OpmlMaker\OpmlMaker.csproj", "{8E60B624-A7B3-4F5E-B500-DCBBE0165A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurlCustom", "CurlCustom\CurlCustom.csproj", "{734A06D7-40C6-4F95-897B-8317EA16D247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{3D693A08-1F74-446D-A29F-EFE39A01DFEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D693A08-1F74-446D-A29F-EFE39A01DFEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D693A08-1F74-446D-A29F-EFE39A01DFEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6131C372-3DBF-4372-BA46-0A492B3C951D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6131C372-3DBF-4372-BA46-0A492B3C951D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6131C372-3DBF-4372-BA46-0A492B3C951D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6131C372-3DBF-4372-BA46-0A492B3C951D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E60B624-A7B3-4F5E-B500-DCBBE0165A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E60B624-A7B3-4F5E-B500-DCBBE0165A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E60B624-A7B3-4F5E-B500-DCBBE0165A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E60B624-A7B3-4F5E-B500-DCBBE0165A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734A06D7-40C6-4F95-897B-8317EA16D247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734A06D7-40C6-4F95-897B-8317EA16D247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734A06D7-40C6-4F95-897B-8317EA16D247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734A06D7-40C6-4F95-897B-8317EA16D247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

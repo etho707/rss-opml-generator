@@ -1,0 +1,12 @@
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\bin\Debug\netcoreapp3.1\YoutubeRegexParser.deps.json
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\bin\Debug\netcoreapp3.1\YoutubeRegexParser.dll
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\bin\Debug\netcoreapp3.1\YoutubeRegexParser.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.csproj.AssemblyReference.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.AssemblyInfoInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.AssemblyInfo.cs
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.csproj.CoreCompileInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.dll
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\bin\Debug\netcoreapp3.1\OpmlMaker.dll
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\bin\Debug\netcoreapp3.1\OpmlMaker.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeRegexParser\obj\Debug\netcoreapp3.1\YoutubeRegexParser.csproj.CopyComplete

@@ -11,7 +11,6 @@ S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcor
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.dll
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.pdb
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.genruntimeconfig.cache
-S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\Sensitive\client_secrets.json
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\Google.Apis.dll
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\Google.Apis.Auth.PlatformServices.dll
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\Google.Apis.Auth.dll
@@ -21,3 +20,7 @@ S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcor
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\YoutubeConnection.dll
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\YoutubeConnection.pdb
 S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.csproj.CopyComplete
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\YoutubeRegexParser.dll
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\YoutubeRegexParser.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\OpmlMaker.dll
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\OpmlMaker.pdb

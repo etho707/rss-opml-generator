@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v3.1": {
       "rss-opml-generator/1.0.0": {
         "dependencies": {
-          "YoutubeConnection": "1.0.0"
+          "YoutubeConnection": "1.0.0",
+          "YoutubeRegexParser": "1.0.0"
         },
         "runtime": {
           "rss-opml-generator.dll": {}
@@ -72,12 +73,25 @@
           }
         }
       },
+      "OpmlMaker/1.0.0": {
+        "runtime": {
+          "OpmlMaker.dll": {}
+        }
+      },
       "YoutubeConnection/1.0.0": {
         "dependencies": {
           "Google.Apis.YouTube.v3": "1.54.0.2434"
         },
         "runtime": {
           "YoutubeConnection.dll": {}
+        }
+      },
+      "YoutubeRegexParser/1.0.0": {
+        "dependencies": {
+          "OpmlMaker": "1.0.0"
+        },
+        "runtime": {
+          "YoutubeRegexParser.dll": {}
         }
       }
     }
@@ -123,7 +137,17 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
+    "OpmlMaker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "YoutubeConnection/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YoutubeRegexParser/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

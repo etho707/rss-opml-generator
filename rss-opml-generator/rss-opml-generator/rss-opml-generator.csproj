@@ -8,12 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\YoutubeConnection\YoutubeConnection.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Sensitive\client_secrets.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\YoutubeRegexParser\YoutubeRegexParser.csproj" />
   </ItemGroup>
 
 </Project>

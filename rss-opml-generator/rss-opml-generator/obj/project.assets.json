@@ -63,6 +63,16 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "OpmlMaker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/OpmlMaker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OpmlMaker.dll": {}
+        }
+      },
       "YoutubeConnection/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -74,6 +84,19 @@
         },
         "runtime": {
           "bin/placeholder/YoutubeConnection.dll": {}
+        }
+      },
+      "YoutubeRegexParser/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "OpmlMaker": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YoutubeRegexParser.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YoutubeRegexParser.dll": {}
         }
       }
     }
@@ -212,15 +235,26 @@
         "packageIcon.png"
       ]
     },
+    "OpmlMaker/1.0.0": {
+      "type": "project",
+      "path": "../OpmlMaker/OpmlMaker.csproj",
+      "msbuildProject": "../OpmlMaker/OpmlMaker.csproj"
+    },
     "YoutubeConnection/1.0.0": {
       "type": "project",
       "path": "../YoutubeConnection/YoutubeConnection.csproj",
       "msbuildProject": "../YoutubeConnection/YoutubeConnection.csproj"
+    },
+    "YoutubeRegexParser/1.0.0": {
+      "type": "project",
+      "path": "../YoutubeRegexParser/YoutubeRegexParser.csproj",
+      "msbuildProject": "../YoutubeRegexParser/YoutubeRegexParser.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "YoutubeConnection >= 1.0.0"
+      "YoutubeConnection >= 1.0.0",
+      "YoutubeRegexParser >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -259,6 +293,9 @@
           "projectReferences": {
             "S:\\Git\\rss-opml-generator\\rss-opml-generator\\YoutubeConnection\\YoutubeConnection.csproj": {
               "projectPath": "S:\\Git\\rss-opml-generator\\rss-opml-generator\\YoutubeConnection\\YoutubeConnection.csproj"
+            },
+            "S:\\Git\\rss-opml-generator\\rss-opml-generator\\YoutubeRegexParser\\YoutubeRegexParser.csproj": {
+              "projectPath": "S:\\Git\\rss-opml-generator\\rss-opml-generator\\YoutubeRegexParser\\YoutubeRegexParser.csproj"
             }
           }
         }

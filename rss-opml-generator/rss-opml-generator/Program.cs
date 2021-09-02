@@ -8,7 +8,8 @@ namespace rss_opml_generator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            TestMyUploads.TestMain(new string[]{});
+            //TestMyUploads.TestMain(new string[]{});
+            YoutubeRegexParser.YoutubeRegexParser.Test();
         }
     }
 }
