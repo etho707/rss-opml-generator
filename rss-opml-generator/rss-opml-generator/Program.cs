@@ -1,4 +1,5 @@
 ﻿using System;
+using YoutubeConnection;
 
 namespace rss_opml_generator
 {
@@ -7,6 +8,7 @@ namespace rss_opml_generator
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            TestMyUploads.TestMain(new string[]{});
         }
     }
 }

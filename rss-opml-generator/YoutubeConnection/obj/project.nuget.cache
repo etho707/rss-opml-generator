@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p1ESXJsUtmjMWSnIT82Fp/IL2oNTFM4pfeYYT/ItQJCAWcwEmtx8t0kvUSzEW56FuilsN4aBH6wfZ7HTvA+/0A==",
+  "dgSpecHash": "4FIogH12dgpzz82I9rU8ArAhbK8XjLM4Gu84twMUlbYs+81zcjbzqeSKelphEeaFrhrOPc947tA3AZ3GqPoakA==",
   "success": true,
-  "projectFilePath": "S:\\Git\\rss-opml-generator\\rss-opml-generator\\rss-opml-generator\\rss-opml-generator.csproj",
+  "projectFilePath": "S:\\Git\\rss-opml-generator\\rss-opml-generator\\YoutubeConnection\\YoutubeConnection.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikhail\\.nuget\\packages\\google.apis\\1.54.0\\google.apis.1.54.0.nupkg.sha512",
     "C:\\Users\\Mikhail\\.nuget\\packages\\google.apis.auth\\1.54.0\\google.apis.auth.1.54.0.nupkg.sha512",

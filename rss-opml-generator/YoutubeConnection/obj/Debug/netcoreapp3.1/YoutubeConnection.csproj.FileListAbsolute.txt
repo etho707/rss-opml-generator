@@ -1,0 +1,9 @@
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\bin\Debug\netcoreapp3.1\YoutubeConnection.deps.json
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\bin\Debug\netcoreapp3.1\YoutubeConnection.dll
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\bin\Debug\netcoreapp3.1\YoutubeConnection.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.csproj.AssemblyReference.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.AssemblyInfoInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.AssemblyInfo.cs
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.csproj.CoreCompileInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.dll
+S:\Git\rss-opml-generator\rss-opml-generator\YoutubeConnection\obj\Debug\netcoreapp3.1\YoutubeConnection.pdb

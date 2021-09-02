@@ -6,4 +6,14 @@
     <RootNamespace>rss_opml_generator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeConnection\YoutubeConnection.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Sensitive\client_secrets.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
