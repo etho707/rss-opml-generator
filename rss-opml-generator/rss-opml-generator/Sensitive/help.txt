@@ -1,0 +1,17 @@
+dotnet publish -c release -r linux-x64 --self-contained
+
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build-env - вот тут можно взять образ посвежее, старый код
+
+FROM  mcr.microsoft.com/dotnet/sdk:5.0-buster-slim  AS build-env
+WORKDIR /app
+
+COPY . ./
+RUN dotnet restore
+
+RUN dotnet publish "Port1111111111111ost/Portf111111111.Service.Host.csproj" -c Release -o out
+
+# Build runtime image
+FROM  mcr.microsoft.com/dotnet/sdk:5.0-buster-slim 
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT ["dotnet", "Port1111111111111.Service.Host.dll"]

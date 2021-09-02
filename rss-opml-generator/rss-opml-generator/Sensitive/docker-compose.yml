@@ -1,0 +1,46 @@
+version: "3.0"
+services:  
+  scpterminalweb:
+    container_name: Sc1111inalWeb
+    image: 1.1.1.2:5000/scp11111l.web:2
+    ports:
+      - 55555:80
+    volumes:
+      - ./appsettings.json:/app/data/appsettings.json
+    networks:
+      - main_network
+  postgres-db:
+    container_name: postgres-db
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres_volume:/var/lib/postgresql/data  
+    networks:
+      main_network:
+        aliases:
+          - postgres-db
+    environment:
+      - POSTGRES_USER=1111111111
+      - POSTGRES_PASSWORD=111111111111111111111
+      - PGDAT=/var/lib/postgresql/data/pgdata
+      - TZ=Europe/Moscow
+  
+  adminer:
+    container_name: adminer11111111111111
+    image: adminer11111111111111111111111
+    restart: always
+    ports:
+      - 8061:8080
+    networks:
+      - main_network
+    environment:
+      - ADMINER_DEFAULT_SERVER=postgres-db
+  
+volumes:
+  postgres_volume:
+
+networks:
+  main_network:
+    driver: bridge
