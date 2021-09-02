@@ -1,0 +1,13 @@
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.exe
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.deps.json
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.runtimeconfig.json
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.runtimeconfig.dev.json
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.dll
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\bin\Debug\netcoreapp3.1\rss-opml-generator.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.csproj.AssemblyReference.cache
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.AssemblyInfoInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.AssemblyInfo.cs
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.csproj.CoreCompileInputs.cache
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.dll
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.pdb
+S:\Git\rss-opml-generator\rss-opml-generator\rss-opml-generator\obj\Debug\netcoreapp3.1\rss-opml-generator.genruntimeconfig.cache
