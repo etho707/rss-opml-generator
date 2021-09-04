@@ -16,7 +16,7 @@ namespace YoutubeRegexParser
             var text = File.ReadAllText(@"C:\Users\Mikhail\Downloads\111\(3857) YouTube.htm");
             var result = regex.Matches(text);
             var a = result; //role="tablist" title="Filinov's Place" href="https://www.youtube.com/c/filinobzor01"
-            var b = result.Where(x => x.Value.Contains("youtube.com/c/"));
+            var b = result.Skip(10);
             var tuples = b.Select(x => new Tuple<string, string>(
                 x.Value.Substring(22).Split('\"')[0], 
                 x.Value.Split('\"').First(s => s.Contains("youtube.com"))));
@@ -31,7 +31,7 @@ namespace YoutubeRegexParser
 
             var opmlLines = OpmlMaker.OpmlMaker.MakeOpmlStringList(new List<OpmlFolder>(){of1});
 
-            File.WriteAllLines("C:\\Users\\Mikhail\\Downloads\\MY_OPML.xml", opmlLines);
+            File.WriteAllLines("C:\\Users\\Mikhail\\Downloads\\MY_OPML3.xml", opmlLines);
 
             Console.WriteLine("File Written!!!");
         }
@@ -45,8 +45,14 @@ namespace YoutubeRegexParser
                 pageString = web1.DownloadString(channelUrl);
             }
             var regexChannelPageId = new Regex("<meta itemprop=\"channelId\" content=\"[^\"]*\"", RegexOptions.IgnoreCase); //<meta itemprop="channelId" content="UCkfUjgaPa-V0WE-6zLYUSuw">
-            var matches = regexChannelPageId.Matches(pageString).First().Value.Substring(35).Trim('\"');
-            return matches;
+            try
+            {
+                return regexChannelPageId.Matches(pageString).First().Value.Substring(35).Trim('\"');
+            }
+            catch
+            {
+                return "NULL";
+            }
         }
     }
 }
