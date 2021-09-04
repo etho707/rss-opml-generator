@@ -1,9 +1,0 @@
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\bin\Debug\netcoreapp3.1\OpmlMaker.deps.json
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\bin\Debug\netcoreapp3.1\OpmlMaker.dll
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\bin\Debug\netcoreapp3.1\OpmlMaker.pdb
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.csproj.AssemblyReference.cache
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.AssemblyInfoInputs.cache
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.AssemblyInfo.cs
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.csproj.CoreCompileInputs.cache
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.dll
-S:\Git\rss-opml-generator\rss-opml-generator\OpmlMaker\obj\Debug\netcoreapp3.1\OpmlMaker.pdb
